@@ -169,22 +169,22 @@ Pick for your preferred package manager:
 ## References
 
 ##### MDN: await
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
+  * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
 
 ##### MDN: Call Stack
-  * https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
+  * [https://developer.mozilla.org/en-US/docs/Glossary/Call_stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack)
 
 ##### MDN: Recursion
-  * https://developer.mozilla.org/en-US/docs/Glossary/Recursion
+  * [https://developer.mozilla.org/en-US/docs/Glossary/Recursion](https://developer.mozilla.org/en-US/docs/Glossary/Recursion)
 
 ##### MDN: setTimeout
-  * https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout
+  * [https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout)
 
 ##### MDN: thenables
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables
+  * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables)
 
 ##### MDN: Using promises
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+  * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
 ##### MDN: Working with asynchronous functions
-  * https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout#working_with_asynchronous_functions
+  * [https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout#working_with_asynchronous_functions](https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout#working_with_asynchronous_functions)
