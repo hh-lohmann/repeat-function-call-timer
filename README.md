@@ -126,7 +126,7 @@ optional: Callback on start of new **[interval](#interval)**
       * NB RegEx: `.replace( /\d/g, '' ).replaceAll( '.', '' )` instead of `location.hostname.replace( /[\d\.]/g, '' )` to avoid `[]` which may mislead Markdown parsers to read it as link syntax
   * Unfortunately GitHub repo view displays "<script>" tags and their contents as literal content (for security), so the JavaScript here has to be pressed into an "onclick"
 -->
-See <a aria-description="Release vs. Dev switch = GitHub Pages vs. local file" href="https://hh-lohmann.github.io/repeat-function-call-timer/demos/" onclick="if( location.hostname.replace( /\d/g, '' ).replaceAll( '.', '' ) === '' || location.hostname === 'localhost' ){ this.href='./demos/'; alert( 'Dev environment detected - switching to local version' ); }">demos</a><span style="display:none;">on GitHub Pages for this repo</span>
+See <a aria-description="Release vs. Dev switch = GitHub Pages vs. local file" href="https://hh-lohmann.github.io/repeat-function-call-timer/demos/" onclick="if( location.hostname.replace( /\d/g, '' ).replaceAll( '.', '' ) === '' || location.hostname === 'localhost' ){ this.href='./demos/'; alert( 'Dev environment detected - switching to local version' ); }">demos</a><span style="display:none;"> on GitHub Pages for this repo</span>
 
 
 ## Caveats
