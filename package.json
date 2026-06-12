@@ -1,0 +1,20 @@
+{
+  "name": "repeat-function-call-timer",
+  "description": "Repeat or retry a function call until it returns a specific value or a timeout is reached",
+  "author": {
+    "name": "hh lohmann",
+    "email": "hh.lohmann@gmail.com"
+  },
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "default": "./index.js",
+    "types": "./types.d.ts"
+  },
+  "scripts": {
+    "test": "node --test ./tests/**/*.test.*"
+  },
+  "devDependencies": {
+    "node-test-bootstrap": "github:hh-lohmann/node-test-bootstrap"
+  }
+}

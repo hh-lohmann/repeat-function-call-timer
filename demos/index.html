@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Demos: Repeat function-call timer
+  </title>
+  <link rel="stylesheet" href="./demos.css">
+  <script type="module" src="./demos_run.js" defer></script>
+</head>
+<body>
+  <h1>
+    Demos for Repeat function-call timer
+  </h1>
+  <p class="seeMainPage">
+    See <a aria-description="Release vs. Dev switch = GitHub Pages vs. local file" href="https://hh-lohmann.github.io/repeat-function-call-timer/" onclick="if( location.hostname.replace( /\d/g, '' ).replaceAll( '.', '' ) === '' || location.hostname === 'localhost' ){ this.href='/'; alert( 'Dev environment detected - switching to local version' ); }">main page</a> for general information about Repeat function-call timer.
+  </p>
+  <section class="demos">
+    <section class="group loadingProgress">
+      <h2>
+        Loading progress
+      </h2>
+      <div class="introNB">
+        Note: Not a main purpose, but demonstrates functionality
+      </div>
+      <section class="variant timeoutOnly">
+        <h3>
+          Timeout only = no intent to match an expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+      <section class="variant matchExpectedValue">
+        <h3>
+          Matching expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+      <section class="variant missExpectedValue">
+        <h3>
+          Missing expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+    </section>
+    <section class="group counter">
+      <h2>
+        Counter
+      </h2>
+      <div class="introNB">
+        Note: Not a main purpose, but demonstrates functionality
+      </div>
+      <section class="variant timeoutOnly">
+        <h3>
+          Timeout only = no intent to match an expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+      <section class="variant matchExpectedValue">
+        <h3>
+          Matching expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+      <section class="variant missExpectedValue">
+        <h3>
+          Missing expectedValue
+        </h3>
+        <div class="demo">
+          <span class="placeholder">... loading ...</span>
+        </div>
+      </section>
+    </section>
+  </section>
+</body>
+</html>
