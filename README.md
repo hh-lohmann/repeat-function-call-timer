@@ -92,7 +92,7 @@ optional: Callback on start of new **[interval](#interval)**
       return false;
     }
     const res = await repeatFunctionCallTimer( checkIfValueSetByAnotherAsynchronousProcess, true, 2000, 100 )
-    if(res.match){ // ... something only }
+    if(res.match){ // ... something only if value was set }
   ```
 
 * Do different things depending if another asynchronous process set a value
