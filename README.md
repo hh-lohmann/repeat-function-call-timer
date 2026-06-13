@@ -8,13 +8,13 @@ Possibly also helpful for awaiting the resolution of an asynchronous function / 
 
 *[hh lohmann &lt;hh.lohmann@gmail.com&gt;](mailto:hh.lohmann@gmail.com?subject=repeat-function-call-timer)*
 
-<!--????
-  Switch to Pages version for better UI
-  - Styles are respected in Pages view, but ignored in repo, so this is only visible in repo view
+<!--
+  Switch to GitHub Pages version for better UI
+  - Markdown rendering is restricted on GitHub repo view / npmjs.com / npmx.dev
   - Delete if irrelevant
 -->
-<p align="center" aria-description="Hint on GitHub repo view to switch to GitHub Pages view" style="display:none;">
-  <b><i>This page may be displayed less optimal in repo view - you may switch to <a href="https://hh-lohmann.github.io/repeat-function-call-timer/">the GitHub Pages view</a> instead</i></b>
+<p align="center" aria-description="Hint for restricted at GitHub repo / npmjs.com / npmx.dev" style="display:none;">
+  <b><i>This page may be displayed more optimal in its <a href="https://hh-lohmann.github.io/repeat-function-call-timer/">GitHub Pages view</a></i></b>
 </p>
 
 
@@ -114,8 +114,6 @@ optional: Callback on start of new **[interval](#interval)**
 
 
 ## Demos
-
-<!--???? Interactive use case(s) for exposed function(s) / executable(s) -->
 
 <!-- ! HTML demo: dev vs. release switch
   * GitHub repo view does not render HTML, so a GitHub Pages view is linked
