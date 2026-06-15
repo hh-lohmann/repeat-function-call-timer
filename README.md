@@ -141,16 +141,14 @@ optional: Callback on start of new **[interval](#interval)**
 
 ## Demos
 
-<!-- ! HTML demo: dev vs. release switch
-  * GitHub repo view does not render HTML, so a GitHub Pages view is linked
-    * NB: GitHub Pages allows to maintain a single instance of the HTML demo file in the repo
-  * In dev a GitHub Pages view would require a Pages build for any change to check instead of live reloading, so JavaScript is utilized here to detect a dev environment and reroute the link to the local repo instance
-    * NB: JavaScript is stripped off in GitHub repo view
-    * "dev environment" is defined by using "localhost" or a numerical ID as hostname
-      * NB RegEx: `.replace( /\d/g, '' ).replaceAll( '.', '' )` instead of `location.hostname.replace( /[\d\.]/g, '' )` to avoid `[]` which may mislead Markdown parsers to read it as link syntax
-  * Unfortunately GitHub repo view displays "<script>" tags and their contents as literal content (for security), so the JavaScript here has to be pressed into an "onclick"
--->
-See <a aria-description="Release vs. Dev switch = GitHub Pages vs. local file" href="https://hh-lohmann.github.io/repeat-function-call-timer/demos/" onclick="if( location.hostname.replace( /\d/g, '' ).replaceAll( '.', '' ) === '' || location.hostname === 'localhost' ){ this.href='./demos/'; alert( 'Dev environment detected - switching to local version' ); }">demos</a><span style="display:none;"> on GitHub Pages for this repo</span>
+<!-- see https://hh-lohmann.github.io/github-readme-demos-switch -->
+<p id="github_readme_demos_switch">
+  See <a href="https://hh-lohmann.github.io/repeat-function-call-timer/demos"
+  onclick="if( location.hostname.replace( /\d/g, '' ).replaceAll( '.', '' ) === ''
+  || location.hostname === 'localhost' ){ this.href='./demos/';
+  alert( 'Dev environment detected - switching to local version' ); }"
+  >demos</a><span style="display:none;"> on GitHub Pages for this repo</span>
+</p>
 
 
 ## Caveats
