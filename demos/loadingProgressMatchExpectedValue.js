@@ -37,7 +37,7 @@ export const loadingProgressMatchExpectedValue = function(targetEl,onEnd=()=>{},
   })
   myAsync.then(res=>{
     const myResult=res.match?'matched':'did not match before timeout';
-    targetEl.innerHTML+=`<br><b>Expectation ${myResult} after ${res.passed} milliseconds</b> (note that timing in JavaScript may not be exact)`;
+    targetEl.innerHTML+=`<br><b>Expectation ${myResult} after ${res.passedTime} milliseconds</b> (note that timing in JavaScript may not be exact)`;
     return res;
   });
   if(onEnd){myAsync.then(res=>onEnd(res));}

@@ -20,11 +20,11 @@ export const counterTimeoutOnly = function(targetEl,onEnd=()=>{},duration=3000,s
     myCounter.innerText=(parseInt(myCounter.innerText)+1).toString();
   }
   const myAsync=repeatFunctionCallTimer(myFunc,'',duration,stepLength);
-  targetEl.innerHTML=`Asynchronous output = together with start of progress bar at ${new Date().toLocaleTimeString()}<br>`;
+  targetEl.innerHTML=`Asynchronous output = together with start of counter at ${new Date().toLocaleTimeString()}<br>`;
   targetEl.appendChild(myCounter);
   myAsync
   .then(res=>{
-    targetEl.innerHTML+=`<br>Synchronous output = after progress bar finished at ${new Date().toLocaleTimeString()}`;
+    targetEl.innerHTML+=`<br>Synchronous output = after counter finished at ${new Date().toLocaleTimeString()}`;
     return res;
   })
   if(onEnd){myAsync.then(res=>onEnd(res));}

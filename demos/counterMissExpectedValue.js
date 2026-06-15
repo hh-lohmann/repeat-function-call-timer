@@ -27,16 +27,16 @@ export const counterMissExpectedValue = function(targetEl,onEnd=()=>{},duration=
   const myTimeToRun=4000;
   targetEl.innerHTML=`<b>Expectation: time has moved by ${myTimeToRun/1000} seconds</b><br>`;
   const myAsync=repeatFunctionCallTimer(myFunc,true,duration,stepLength);
-  targetEl.innerHTML+=`Asynchronous output = together with start of progress bar at ${new Date().toLocaleTimeString()}<br>`;
+  targetEl.innerHTML+=`Asynchronous output = together with start of counter at ${new Date().toLocaleTimeString()}<br>`;
   targetEl.appendChild(myCounter);
   myAsync
   .then(res=>{
-    targetEl.innerHTML+=`<br>Synchronous output = after progress bar finished at ${new Date().toLocaleTimeString()}`;
+    targetEl.innerHTML+=`<br>Synchronous output = after counter finished at ${new Date().toLocaleTimeString()}`;
     return res;
   })
   myAsync.then(res=>{
     const myResult=res.match?'matched':'did not match before timeout';
-    targetEl.innerHTML+=`<br><b>Expectation ${myResult} after ${res.passed} milliseconds</b> (note that timing in JavaScript may not be exact)`;
+    targetEl.innerHTML+=`<br><b>Expectation ${myResult} after ${res.passedTime} milliseconds</b> (note that timing in JavaScript may not be exact)`;
     return res;
   });
   if(onEnd){myAsync.then(res=>onEnd(res));}

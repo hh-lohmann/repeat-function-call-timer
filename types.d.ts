@@ -1,3 +1,10 @@
+/** Check given arguments for repeatFunctionCallTimer
+ *  - Signature identical to repeatFunctionCallTimer (see there)
+ *  - ! Needs the args actually passed by user, therefore ""...args:any"
+ *    - NB: passing the signature of repeatFunctionCallTimer would spoil checks for not enough / too many arguments
+ */
+export type _ChkArgsRepeatFunctionCallTimer = (...args:any)=>void;
+
 /** Repeat or retry a function call until it returns a specific value or a timeout is reached
  *    - Optionally with specified callback functions for the two possible
  *      outcomes "return matched" and "timeout reached"
@@ -11,17 +18,17 @@
  * @param [whenInterval] - optional: Callback on start of new interval
  *          - passing `(passedTime)`
  *          - Note: Does not allow to manipulate active parameters
- * @returns Promise resolving to an object "{match: true|false,passed: milliseconds passed}""
+ * @returns Promise resolving to an object "{match: true|false,passedTime: milliseconds passed}""
  */
 export type RepeatFunctionCallTimer =
   (
     functionToCall:Function,
-    expectedValue:any,
+    expectedValue:bigint | boolean | number | string | undefined,
     timeout:number,
     interval:number,
     whenInterval?:Function
   )
-  => Promise<{match:boolean,passed:number}>;
+  => Promise<{match:boolean,passedTime:number}>;
 export const repeatFunctionCallTimer:RepeatFunctionCallTimer;
 
 /** => Internal non-Promise version of {@link RepeatFunctionCallTimer}

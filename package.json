@@ -1,12 +1,12 @@
 {
   "name": "repeat-function-call-timer",
   "description": "Repeat or retry a function call until it returns a specific value or a timeout is reached",
-  "keywords": [ "repeat", "retry", "check", "value" ],
+  "keywords": [ "repeat", "retry", "check", "value", "async", "asynchronous", "observer" ],
   "author": {
     "name": "hh lohmann",
     "email": "hh.lohmann@gmail.com"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://hh-lohmann.github.io/repeat-function-call-timer",
   "repository": {
     "type": "github",

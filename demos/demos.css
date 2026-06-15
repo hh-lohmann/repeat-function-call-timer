@@ -7,6 +7,9 @@ body{
 .demo{
   padding: 0 0 2em 2em;
 }
+.endspacer{
+  margin-top: 8em;
+}
 .introNB{
   font-style: italic;
 }
