@@ -8,13 +8,12 @@ Created for handling / observing intermediate or final states of asynchronous pr
 
 *[hh lohmann &lt;hh.lohmann@gmail.com&gt;](mailto:hh.lohmann@gmail.com?subject=repeat-function-call-timer)*
 
-<!--
-  Switch to GitHub Pages version for better UI
-  - Markdown rendering is restricted on GitHub repo view / npmjs.com / npmx.dev
-  - Delete if irrelevant
--->
-<p align="center" aria-description="Hint for restricted at GitHub repo / npmjs.com / npmx.dev" style="display:none;">
-  <b><i>This page may be displayed more optimal in its <a href="https://hh-lohmann.github.io/repeat-function-call-timer/">GitHub Pages view</a></i></b>
+
+<!-- see https://hh-lohmann.github.io/github-readme-pages-switch -->
+<p align="center" id="github_readme_pages_switch" style="display:none;">
+  <b><i>This page may be displayed more optimal in its
+  <a href="https://hh-lohmann.github.io/repeat-function-call-timer/">GitHub Pages view</a>
+  </i></b>
 </p>
 
 
@@ -130,7 +129,7 @@ optional: Callback on start of new **[interval](#interval)**
 * Log current time's seconds while doing something else
   ```js
     repeatFunctionCallTimer( ()=>console.log(new Date().getSeconds()), '', 3000, 1000 );
-    // ... meanhwile something else ...
+    // ... meanwhile something else ...
   ```
 
 * Log current time's seconds before doing something else
