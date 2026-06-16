@@ -194,6 +194,17 @@ Pick for your preferred package manager:
   * Implemented as a [recursion](#mdn-recursion) of [setTimeout](#mdn-settimeout) calls that is terminated by **[timeout](#timeout)** or matching **[expectedValue](#expectedvalue)**
 
 
+## Tests
+
+  * Code tests to be run with Node.js / Bun available in [Source Code](#source-code)
+
+
+## Source Code
+
+  * GitHub: <https://github.com/hh-lohmann/repeat-function-call-timer>
+
+
+
 ## References
 
 ##### MDN: await
